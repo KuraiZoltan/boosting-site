@@ -12,3 +12,56 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+html {
+    height: 100%
+}
+
+.description-component {
+    margin: 2rem
+}
+
+button {
+    margin: 0.75rem;
+}
+
+.select-from, .select-to {
+    border: 1px solid black;
+    width: 50vw;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input-details-container {
+    border: 1px solid black;
+    width: 50vw;
+    
+}
+
+.input-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.page-content {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-details {
+    display: flex;
+    flex-direction:column;
+    margin: 2rem
+}
+
+label {
+    margin: 1rem
+}
+
+select {
+    margin-left: 2rem
+}
