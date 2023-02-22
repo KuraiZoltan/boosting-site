@@ -25,18 +25,15 @@ button {
     margin: 0.75rem;
 }
 
-.select-from, .select-to {
+.select-from-buttons, .select-to-buttons {
     border: 1px solid black;
-    width: 50vw;
+    width: 70%;
     margin-bottom: 1rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .input-details-container {
     border: 1px solid black;
-    width: 50vw;
+    width: 70%;
     
 }
 
@@ -63,5 +60,17 @@ label {
 }
 
 select {
-    margin-left: 2rem
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+img {
+    max-width: 75px;
+    max-height: 75px
+}
+
+#order-submit-btn {
+    min-width: 75px;
+    max-width: 100px;
 }
